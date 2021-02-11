@@ -1,3 +1,6 @@
+import matplotlib
+matplotlib.use('Agg')
+
 import tkinter as tk
 
 class Application(tk.Frame):
