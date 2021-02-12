@@ -1,4 +1,4 @@
-import Tkinter
+import tkinter
 import sys
 import os
 
@@ -8,13 +8,13 @@ if os.environ.get('DISPLAY','') == '':
 
 
 #create main window
-master = Tkinter.Tk()
+master = tkinter.Tk()
 master.title("tester")
 master.geometry("300x100")
 
 
 #make a label for the window
-label1 = Tkinter.Label(master, text='Hellooooo')
+label1 = tkinter.Label(master, text='Hellooooo')
 # Lay out label
 label1.pack()
 
