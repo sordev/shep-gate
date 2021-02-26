@@ -15,7 +15,7 @@ pwm.start(0)
 
 
 def OpenGate():
-    cState.configure(text="Gate Status: Open")
+    cState.configure(text="Gate Status: Opens")
     GPIO.output(31, GPIO.HIGH)
     pwm.ChangeDutyCycle(95)
     time.sleep(3)             # wait 3 seconds at current LED brightness
